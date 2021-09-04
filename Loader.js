@@ -13,12 +13,12 @@ const styles = StyleSheet.create({
         justifyContent: "flex-end",
         paddingVertical: 180,
         paddingHorizontal: 50,
-        backgroundColor: "#2b5970",
+        // backgroundColor: "#2b5970",
 
     },
     text: {
-        color: "#c5d0d6",
-        fontSize: 30,
+        color: "#414141",
+        fontSize: 40,
         transform: [{ rotate: '90deg' }],
         left: 100,
     }

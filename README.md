@@ -1,7 +1,18 @@
-## Weather app using react-native !
+## Mobile weather app using react-native !
 
 ### Using ...
+
+```
 - react native
 - expo
+- expo-location
+- axios
+- weather API
+```
 
 ### Features
+
+```
+- Ask for permission to get location
+- Get weather where you at using weather API
+```
