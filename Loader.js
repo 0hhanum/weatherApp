@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
         fontSize: 40,
         transform: [{ rotate: '90deg' }],
         left: 100,
+        fontWeight: "100",
     }
 
 });
