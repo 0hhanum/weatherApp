@@ -6,6 +6,7 @@
 - react native
 - expo
 - expo-location
+- expo-linear-gradient
 - axios
 - weather API
 ```

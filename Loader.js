@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import { LinearGradient } from "expo-linear-gradient";
 
 export default function Loading() {
-    return <View style={styles.container}>
-        <Text style={styles.text}>비가 오고 있나요?</Text>
-    </View>;
+    return (
+        <LinearGradient colors={['#E0EAFC', '#83a4d4']} style={styles.container}>
+            <Text style={styles.text}>비가   오고   있나요?</Text>
+        </LinearGradient>
+    );
 }
 const styles = StyleSheet.create({
     container: {
@@ -17,10 +19,11 @@ const styles = StyleSheet.create({
 
     },
     text: {
-        color: "#414141",
+        color: "black",
         fontSize: 40,
         transform: [{ rotate: '90deg' }],
         left: 100,
+        bottom: 100,
         fontWeight: "100",
     }
 
